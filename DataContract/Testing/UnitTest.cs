@@ -8,6 +8,11 @@ namespace Testing
     [TestClass]
     public class UnitTest
     {
+        public UnitTest()
+        {
+            //intentionally empty
+        }
+
         [TestMethod]
         public void TestMethod1()
         {
